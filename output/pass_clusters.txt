@@ -1,0 +1,162 @@
+
+--- Cluster 0 ---
+  - --add-discriminators
+  - --aggressive-instcombine
+  - --alignment-from-assumptions
+  - --always-inline
+  - --argpromotion
+  - --attributor
+  - --barrier
+  - --called-value-propagation
+  - --callsite-splitting
+  - --canonicalize-aliases
+  - --consthoist
+  - --constmerge
+  - --constprop
+  - --coro-cleanup
+  - --coro-early
+  - --coro-elide
+  - --coro-split
+  - --cross-dso-cfi
+  - --deadargelim
+  - --ee-instrument
+  - --flattencfg
+  - --float2int
+  - --forceattrs
+  - --functionattrs
+  - --globalsplit
+  - --guard-widening
+  - --infer-address-spaces
+  - --inferattrs
+  - --inject-tli-mappings
+  - --instnamer
+  - --ipconstprop
+  - --loop-data-prefetch
+  - --loop-distribute
+  - --lower-guard-intrinsic
+  - --lower-matrix-intrinsics
+  - --lower-widenable-condition
+  - --mergeicmps
+  - --mldst-motion
+  - --name-anon-globals
+  - --nary-reassociate
+  - --partially-inline-libcalls
+  - --pgo-memop-opt
+  - --post-inline-ee-instrument
+  - --redundant-dbg-inst-elim
+  - --rewrite-statepoints-for-gc
+  - --rpo-functionattrs
+  - --sancov
+  - --sink
+  - --speculative-execution
+  - --strip
+  - --strip-dead-prototypes
+  - --strip-debug-declare
+  - --strip-nondebug
+  - --tailcallelim
+
+--- Cluster 1 ---
+  - --indvars
+  - --irce
+  - --lcssa
+  - --licm
+  - --loop-deletion
+  - --loop-guard-widening
+  - --loop-idiom
+  - --loop-instsimplify
+  - --loop-interchange
+  - --loop-predication
+  - --loop-reroll
+  - --loop-rotate
+  - --loop-simplifycfg
+  - --loop-sink
+  - --loop-unroll
+  - --loop-unroll-and-jam
+  - --loop-versioning-licm
+  - --simple-loop-unswitch
+
+--- Cluster 2 ---
+  - --elim-avail-extern
+  - --lower-expect
+
+--- Cluster 3 ---
+  - --globalopt
+  - --ipsccp
+
+--- Cluster 4 ---
+  - --insert-gcov-profiling
+  - --loop-fusion
+  - --loop-load-elim
+  - --loop-simplify
+  - -loop-reduce
+
+--- Cluster 5 ---
+  - --adce
+  - --bdce
+  - --dce
+  - --die
+  - --dse
+  - --instsimplify
+  - --prune-eh
+
+--- Cluster 6 ---
+  - --early-cse
+  - --early-cse-memssa
+  - --gvn
+  - --gvn-hoist
+  - --instcombine
+  - --mem2reg
+  - --newgvn
+  - --sroa
+
+--- Cluster 7 ---
+  - --slp-vectorizer
+  - --slsr
+
+--- Cluster 8 ---
+  - --jump-threading
+  - --reassociate
+  - --sccp
+  - --simplifycfg
+
+--- Cluster 9 ---
+  - --hotcoldsplit
+  - --load-store-vectorizer
+  - --lowerinvoke
+  - --mergereturn
+  - --partial-inliner
+
+--- Cluster 10 ---
+  - --break-crit-edges
+  - --lowerswitch
+  - --reg2mem
+
+--- Cluster 11 ---
+  - --correlated-propagation
+  - --div-rem-pairs
+
+--- Cluster 12 ---
+  - --loweratomic
+  - --scalarizer
+
+--- Cluster 13 ---
+  - --lower-constant-intrinsics
+  - --memcpyopt
+
+--- Cluster 14 ---
+  - --inline
+  - --separate-const-offset-from-gep
+
+--- Cluster 15 ---
+  - --loop-unswitch
+  - --loop-vectorize
+  - --loop-versioning
+
+--- Cluster 16 ---
+  - --mergefunc
+
+--- Cluster 17 ---
+  - --libcalls-shrinkwrap
+
+--- Cluster 18 ---
+  - --globaldce

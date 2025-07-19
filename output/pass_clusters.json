@@ -1,0 +1,164 @@
+{
+  "0": [
+    "--add-discriminators",
+    "--aggressive-instcombine",
+    "--alignment-from-assumptions",
+    "--always-inline",
+    "--argpromotion",
+    "--attributor",
+    "--barrier",
+    "--called-value-propagation",
+    "--callsite-splitting",
+    "--canonicalize-aliases",
+    "--consthoist",
+    "--constmerge",
+    "--constprop",
+    "--coro-cleanup",
+    "--coro-early",
+    "--coro-elide",
+    "--coro-split",
+    "--cross-dso-cfi",
+    "--deadargelim",
+    "--ee-instrument",
+    "--flattencfg",
+    "--float2int",
+    "--forceattrs",
+    "--functionattrs",
+    "--globalsplit",
+    "--guard-widening",
+    "--infer-address-spaces",
+    "--inferattrs",
+    "--inject-tli-mappings",
+    "--instnamer",
+    "--ipconstprop",
+    "--loop-data-prefetch",
+    "--loop-distribute",
+    "--lower-guard-intrinsic",
+    "--lower-matrix-intrinsics",
+    "--lower-widenable-condition",
+    "--mergeicmps",
+    "--mldst-motion",
+    "--name-anon-globals",
+    "--nary-reassociate",
+    "--partially-inline-libcalls",
+    "--pgo-memop-opt",
+    "--post-inline-ee-instrument",
+    "--redundant-dbg-inst-elim",
+    "--rewrite-statepoints-for-gc",
+    "--rpo-functionattrs",
+    "--sancov",
+    "--sink",
+    "--speculative-execution",
+    "--strip",
+    "--strip-dead-prototypes",
+    "--strip-debug-declare",
+    "--strip-nondebug",
+    "--tailcallelim"
+  ],
+  "1": [
+    "--indvars",
+    "--irce",
+    "--lcssa",
+    "--licm",
+    "--loop-deletion",
+    "--loop-guard-widening",
+    "--loop-idiom",
+    "--loop-instsimplify",
+    "--loop-interchange",
+    "--loop-predication",
+    "--loop-reroll",
+    "--loop-rotate",
+    "--loop-simplifycfg",
+    "--loop-sink",
+    "--loop-unroll",
+    "--loop-unroll-and-jam",
+    "--loop-versioning-licm",
+    "--simple-loop-unswitch"
+  ],
+  "2": [
+    "--elim-avail-extern",
+    "--lower-expect"
+  ],
+  "3": [
+    "--globalopt",
+    "--ipsccp"
+  ],
+  "4": [
+    "--insert-gcov-profiling",
+    "--loop-fusion",
+    "--loop-load-elim",
+    "--loop-simplify",
+    "-loop-reduce"
+  ],
+  "5": [
+    "--adce",
+    "--bdce",
+    "--dce",
+    "--die",
+    "--dse",
+    "--instsimplify",
+    "--prune-eh"
+  ],
+  "6": [
+    "--early-cse",
+    "--early-cse-memssa",
+    "--gvn",
+    "--gvn-hoist",
+    "--instcombine",
+    "--mem2reg",
+    "--newgvn",
+    "--sroa"
+  ],
+  "7": [
+    "--slp-vectorizer",
+    "--slsr"
+  ],
+  "8": [
+    "--jump-threading",
+    "--reassociate",
+    "--sccp",
+    "--simplifycfg"
+  ],
+  "9": [
+    "--hotcoldsplit",
+    "--load-store-vectorizer",
+    "--lowerinvoke",
+    "--mergereturn",
+    "--partial-inliner"
+  ],
+  "10": [
+    "--break-crit-edges",
+    "--lowerswitch",
+    "--reg2mem"
+  ],
+  "11": [
+    "--correlated-propagation",
+    "--div-rem-pairs"
+  ],
+  "12": [
+    "--loweratomic",
+    "--scalarizer"
+  ],
+  "13": [
+    "--lower-constant-intrinsics",
+    "--memcpyopt"
+  ],
+  "14": [
+    "--inline",
+    "--separate-const-offset-from-gep"
+  ],
+  "15": [
+    "--loop-unswitch",
+    "--loop-vectorize",
+    "--loop-versioning"
+  ],
+  "16": [
+    "--mergefunc"
+  ],
+  "17": [
+    "--libcalls-shrinkwrap"
+  ],
+  "18": [
+    "--globaldce"
+  ]
+}
